@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         plugin={"html:target/reports/cucumber.html","json:target/reports/cucumber.json"},
         glue="steps",
         features="src/test/resources/features",
-        tags = "@login",
+        tags = "@E2E",
         dryRun = false
 )
 
